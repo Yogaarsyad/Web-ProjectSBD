@@ -66,30 +66,32 @@ function App() {
           </div>
         );
       
-      case 'NETLAB':
-        return (
-          <div className="flex flex-col md:flex-row items-center gap-8">
-            <img 
-              src="/Logo.svg" 
-              alt="NETLAB Logo" 
-              className="h-40 w-40 animate-fade-in"
-            />
-            <div>
-              <h2 className="text-2xl font-semibold mb-4 dark:text-white">Network Laboratory</h2>
-              <p className="text-gray-600 dark:text-gray-300 text-justify">
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. 
-                Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-              </p>
-            </div>
-          </div>
-        );
-      
+        case 'NETLAB':
+  return (
+    <div className="flex flex-col md:flex-row items-center gap-8">
+      <img 
+        src="/Logo.svg" 
+        alt="NETLAB Logo" 
+        className="h-40 w-40 animate-fade-in"
+      />
+      <div>
+        <h2 className="text-2xl font-semibold mb-2 dark:text-white">Network Laboratory</h2>
+        <h3 className="text-xl font-medium text-gray-700 dark:text-gray-300 mb-4">
+          Ryan Safa Tjendana
+        </h3>
+        <p className="text-gray-600 dark:text-gray-300 text-justify">
+          coming soon yaa abang hehe ..
+        </p>
+      </div>
+    </div>
+  );
+
       default:
         return (
           <div className="text-center space-y-8 animate-fade-in">
             <div className="space-y-6">
               <h1 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-blue-600 to-purple-500 bg-clip-text text-transparent dark:from-blue-400 dark:to-purple-300">
-                Welcome to Informatics Learning Platform
+              Welcome to the Computer Engineering Learning Platform
               </h1>
               
               <div className="flex items-center justify-center space-x-4">
@@ -106,7 +108,7 @@ function App() {
             <div className="mt-12 animate-slide-up">
               <div className="inline-block px-6 py-2 rounded-full bg-blue-100 dark:bg-blue-900/50 border border-blue-200 dark:border-blue-800">
                 <span className="text-sm text-blue-600 dark:text-blue-300">
-                  🚀 Coming Soon: Interactive Learning Features
+                   Coming Soon ..
                 </span>
               </div>
               <p className="mt-4 text-gray-500 dark:text-gray-400 max-w-2xl mx-auto">
